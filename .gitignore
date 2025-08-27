@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Azure/ChatPlaygroundAOAI/appsettings.Development.json
+/src/Azure/ChatPlaygroundAOAI/.vs
+/src/Azure/ChatPlaygroundAOAI/bin
+/src/Azure/ChatPlaygroundAOAI/obj
