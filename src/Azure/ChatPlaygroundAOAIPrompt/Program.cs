@@ -31,7 +31,6 @@ var systemPrompt = File.ReadAllText($"{Directory.GetCurrentDirectory()}/{systemP
 
 var azureClient = new AzureOpenAIClient(endpoint, new AzureKeyCredential(key));
 var chatClient = azureClient.GetChatClient(chatDeployment);
-var embeddingClient = azureClient.GetEmbeddingClient(embedDeployment);
 
 
 // Setup Options
